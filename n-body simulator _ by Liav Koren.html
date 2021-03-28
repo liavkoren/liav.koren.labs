@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Universal Attraction: web-based n-body simulator by Liav Koren is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Based on a work at http://www.liavkoren.com/nBody_main.html. -->
+<html lang="en">
+	<head>
+		<title>n-body simulator // by Liav Koren</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<!--<style>
+			body {
+				margin:0px;
+				overflow: hidden;
+			}
+		</style>-->
+		<link rel="stylesheet" href="./styles/n_body.css"/>
+
+	</head>
+	<body>
+		<div id="container"></div>		
+		<div class = "info">
+		</div>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojo/dojo.js" data-dojo-config="async: true"></script> -->
+		<!-- //// -->
+	</body>
+	<script type="text/javascript" src="./js/libs/three.min.js"></script>
+	<!--<script type="text/javascript" src="./js/libs/three.js"></script> -->
+	<script type="text/javascript" src="./js/libs/TrackballControls.js"></script>	
+	<script type="text/javascript" src="./js/libs/dat.gui.min.js"></script>
+	<script type="text/javascript" src="./js/libs/stats.min.js"></script>	
+	<script type="text/javascript" src="./widget/js/libs/sylvester.js"></script>	
+	<!-- //// -->
+	<script type="text/javascript" src="./js/shaders/ConvolutionShader.js"></script>
+	<script type="text/javascript" src="./js/shaders/CopyShader.js"></script>
+	<script type="text/javascript" src="./js/shaders/FilmShader.js"></script>
+	<script type="text/javascript" src="./js/shaders/FilmPass.js"></script>
+	<script type="text/javascript" src="./js/shaders/EffectComposer.js"></script>
+	<script type="text/javascript" src="./js/shaders/MaskPass.js"></script>
+	<script type="text/javascript" src="./js/shaders/RenderPass.js"></script>
+	<script type="text/javascript" src="./js/shaders/BloomPass.js"></script>
+	<script type="text/javascript" src="./js/shaders/ShaderPass.js"></script>
+	<script type="text/javascript" src="./js/shaders/AdditiveBlendShader.js"></script>
+	<!-- //// -->	
+	<script type="text/javascript" src="./js/widget_factory.js"></script>
+	<script type="text/javascript" src="./js/fall_back_text.js"></script>				
+	<script type="text/javascript" src="./js/nRender.js"></script>			
+	<script type="text/javascript" src="./js/nBodies.js"></script>	
+	<script type="text/javascript" src="./js/presets.js"></script>	
+	<script type="text/javascript" src="./js/nHelpers.js"></script>		
+	<script type ="text/javascript" async src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+	<script>
+		$(document).ready(function() {
+			$(".info").hide();
+		})			
+	</script>	
+
+
+	<!--//// -->	
+</html>
