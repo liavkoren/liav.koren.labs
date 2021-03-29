@@ -1,8 +1,8 @@
 # Projects I've been working on
 
 ## Implementing Reinforcement Learning papers
-In 2017 and 2018 I spent some time studying ML and reinforcement learning. These ipython notesbooks document some of this work in a literate-programming style. The goal was to try and write clear, simple implementations, woven together with relevant insights,  explorations and training artifacts.
-1. [A literate programming exploration of DeepMind's DeepQLearning original paper and some extensions](2018-06-DQN-Part1.html).  This documents initial steps through implementing the DQN agent as well the Double DQN extension and some of the theory behind it. 
+In 2017 and 2018 I spent some time studying ML and reinforcement learning. These ipython notebooks document some of this work in a literate-programming style. The goal was to try and write clear, simple implementations, woven together with relevant insights, explorations and training artifacts.
+1. [A literate programming exploration of DeepMind's DeepQLearning original paper and some extensions](2018-06-DQN-Part1.html). This notebook documents my initial steps implementing the DQN agent as well the Double DQN extension and discusses some of the underlying theory.
 1. [DQN with Prioritized Experience Replay](2018-07-DQN-2_PER.html). Prioritized Experience replay is a DQN extension based on the idea that some of the transitions a reinforcement learning agent sees are more valuable than others. 
 1. [Distributional DQN](2018-08-DQN-3_Distributional.html). Distributional DQN agents are attempting to learn the underlying distribution that outcomes are drawn from.
 
