@@ -1,5 +1,5 @@
 # Bio
-I'm a Toronto-based programmer, with a background in design. I've been doing a mix of backend and full-stack problem solving for over seven years now. I'm an aspiring rationalist, effective altruist, saxophonist, contact-improv dancer and an experience cat annoyer. Pronouns: he/they/hey-you.
+I'm a Toronto-based programmer, with a background in design. I've been doing a mix of backend and full-stack problem solving for over seven years now. I'm an aspiring rationalist, effective altruist, saxophonist, contact-improv dancer and an experience cat annoyer.
 
 # Projects I've been working on
 
